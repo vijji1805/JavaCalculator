@@ -29,10 +29,6 @@ public class Calculator  {
 		return second-first;
 	}
 	
-	public long mulFucn(long first, long second){
-		
-		return first*second;
-	}
 	
 	public static void main(String[] args) {
 		
@@ -48,7 +44,6 @@ public class Calculator  {
 		long second = sc.nextLong();
 		cc.setSecond(second);
 		
-		System.out.println("The difference of two numbers is: "+cc.subFucn(first, second));
 		System.out.println("The multiples of two numbers is: "+cc.mulFucn(first, second));
 		
 	}
