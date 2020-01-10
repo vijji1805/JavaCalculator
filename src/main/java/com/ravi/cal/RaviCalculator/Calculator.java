@@ -44,7 +44,7 @@ public class Calculator  {
 		long second = sc.nextLong();
 		cc.setSecond(second);
 		
-		System.out.println("The difference of two numbers is: "+cc.subFucn(second, first));
+		System.out.println("The difference of two numbers is: "+cc.subFucn(first, second));
 		
 	}
 	 
