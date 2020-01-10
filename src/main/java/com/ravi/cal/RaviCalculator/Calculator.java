@@ -44,7 +44,7 @@ public class Calculator  {
 		long second = sc.nextLong();
 		cc.setSecond(second);
 		
-		System.out.println("The multiples of two numbers is: "+cc.mulFucn(first, second));
+		System.out.println("The difference of two numbers is: "+cc.subFucn(second, first));
 		
 	}
 	 
