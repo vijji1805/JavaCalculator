@@ -29,6 +29,12 @@ public class Calculator  {
 		return second-first;
 	}
 	
+	public long addFucn(long first, long second){
+
+                return first+second;
+        }
+
+	
 	
 	public static void main(String[] args) {
 		
@@ -45,7 +51,8 @@ public class Calculator  {
 		cc.setSecond(second);
 		
 		System.out.println("The difference of two numbers is: "+cc.subFucn(first, second));
-		
+		System.out.println("The addition of two numbers is: "+cc.addFucn(first, second));
+
 	}
 	 
 
