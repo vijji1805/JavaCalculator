@@ -16,7 +16,7 @@ public class CalculatorTest {
     @Test
     public void threeAndTwoIsFive() throws Exception {
         final long result = new Calculator().addFucn(2, 3);
-        assertThat(result, is(1L));
+        assertThat(result, is(5L));
     }
 
     
